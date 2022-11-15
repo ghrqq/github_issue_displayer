@@ -1,5 +1,19 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## Before Getting Started
+
+Please do not forget creating a `.env.local` file by using this command
+
+> `cp .env.example .env.local`
+
+or whichever method you prefer. I'm pretty sure you know how to get a GitHub PAT but [just in case](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token).
+
+You need to paste your PAT to your `.env.local` file and it should be lookig like this:
+
+> `NEXT_PUBLIC_GITHUB_AUTH=YOUR_TOKEN_HERE`
+
+Enjoy!
+
 ## Getting Started
 
 First, run the development server:
