@@ -17,7 +17,7 @@ const Layout = (props: Props) => {
     <DataContext.Provider value={dataContext}>
       <UtilityContext.Provider value={utilityContext}>
         <div className="flex flex-col min-h-screen items-stretch justify-between">
-          <HeadElement pageName={globalThis?.window?.location?.pathname} />
+          <HeadElement />
           <main>{children}</main>
           <Footer />
         </div>

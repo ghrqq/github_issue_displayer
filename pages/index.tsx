@@ -18,6 +18,7 @@ export default function Home() {
       return;
     }
     initialiseData(data);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [data]);
 
   const { initialiseData, displayableIssues } = useDataContext();

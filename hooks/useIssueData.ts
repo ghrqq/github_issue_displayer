@@ -117,6 +117,7 @@ export const useIssueData = (): UseIssueDataOutput => {
     }
 
     filterByLabels();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [selectedLabels, dataState]);
   /**
    * Checks if displayables should be updated based on the user selection changes.
@@ -131,6 +132,7 @@ export const useIssueData = (): UseIssueDataOutput => {
     }
 
     filterByUsers();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [dataState, selectedUsers]);
 
   return {
