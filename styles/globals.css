@@ -1,3 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --text-white: #f9fafb;
+  --amber: #ffbe0bff;
+  --orange-pantone: #fb5607ff;
+  --winter-sky: #ff006eff;
+  --blue-violet: #8338ecff;
+  --azure: #3a86ffff;
+  --base-roundness: 5em;
+}
 html,
 body {
   padding: 0;
@@ -20,7 +33,19 @@ a {
     color-scheme: dark;
   }
   body {
-    color: white;
-    background: black;
+    color: #f9fafb;
+    background: #111827;
   }
+}
+
+.message-body {
+  word-wrap: break-word;
+  overflow: scroll;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+.message-body a {
+  text-decoration: underline;
+  color: #3b82f6;
 }
